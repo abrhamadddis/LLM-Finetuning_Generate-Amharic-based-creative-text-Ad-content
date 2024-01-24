@@ -15,8 +15,8 @@ This project makes sure that their advertisements are both catchy and relevant t
 
 After choosng a suitable opensource LLM model with appropriatevwith better trainings and one that should already have a capability to embed amharic texts, a dataset will be utilized to finetune it further to deliver the business needs. That is made possible by using an efficient RAG system to help generate ideal Ad contents in Amharic. The data contains exported Telegram messages in JSON format representing 25 telegram public channels. The structure of the JSON object provides information about the sender, timestamps, message types, and any associated multimedia content.
 
-In the end, A RAG pipline will be set for the final Ad generation which will be hosted on Streamlit/React.
+In the end, A RAG pipline will be set for the final Ad generation which will be hosted on front end Streamlit/React .
 
 ### Approaches and Techniques
 
-The data seems to be a dump and needs to get cleaned and labeled so as to get the desired and ideal dataset to finetune the opensource model. After that this can be used as a model so it is possbile to generate a more likable, tailored and successful Ad.
+The data seems to be a dump and needs to get cleaned and labeled so as to get the desired and ideal dataset to finetune the opensource model. After that this can be used as a model so it is possbile to generate a more likable, tailored and successful Ad. 
