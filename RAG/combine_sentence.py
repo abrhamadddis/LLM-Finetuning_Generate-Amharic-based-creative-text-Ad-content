@@ -22,7 +22,7 @@ def combine_sentences(sentences, buffer_size=1):
                 # Add the sentence at index j to the combined_sentence string
                 combined_sentence += ' ' + sentences[j]['sentence']
 
-        # Then add the whole thing to your dict
+
         # Store the combined sentence in the current sentence dict
         sentences[i]['combined_sentence'] = combined_sentence
 
